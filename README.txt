@@ -1,6 +1,4 @@
-Michael Yan
-
-This is my recommendation system project using matrix factorization.
+This is my recommendation system project using a matrix factorization algorithm.
 
 To run the program:
 
@@ -11,10 +9,6 @@ python test.pyx
 
 In this case I have piped stdout to result.txt. This files shows the error associated with each feature.
 
-The data folder contains the results of the matrix factorization. ?data.txt indicates the results for that many features. Within each file the first part of data is the user matrix, the second is the item matrix and the third is the ratings matrix, each separated by a series of dashes. 
+The data folder contains the results of the matrix factorization. __data.txt indicates the results for that many features. Within each file the first part of data is the user matrix, the second is the item matrix and the third is the ratings matrix, each separated by a series of dashes.
 
-The ml-100k folder contains the MovieLens data.
-
-There is an excel file that also shows the results, but it is sorted but has the corresponding data next to it.
-
-The report is located in the Report folder
+The ml-100k folder contains the MovieLens data for which I predicted ratings for
