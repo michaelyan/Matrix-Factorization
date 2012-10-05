@@ -11,4 +11,4 @@ In this case I have piped stdout to result.txt. This files shows the error assoc
 
 The data folder contains the results of the matrix factorization. __data.txt indicates the results for that many features. Within each file the first part of data is the user matrix, the second is the item matrix and the third is the ratings matrix, each separated by a series of dashes.
 
-The ml-100k folder contains the MovieLens data for which I predicted ratings for
+The ml-100k folder contains the MovieLens data for which I predicted ratings for.
